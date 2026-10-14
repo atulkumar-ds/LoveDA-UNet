@@ -1,0 +1,29 @@
+@"
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Datasets and generated outputs
+dataset/
+datasets/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+"@ | Add-Content .gitignore
